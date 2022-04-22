@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#0C2D54</color>
+    <color name="colorPrimaryDark">#0C2D54</color>
+    <color name="colorPrimaryLight">#446ba7</color>
+    <color name="colorAccent">#6DC13A</color>
+    <color name="lightTextColorPrimary">#fff</color>
+    <color name="iconColor">#fff</color>
+    <color name="colorHeartbeatTintRed">#B22222</color>
+    <color name="gray">#BABBC2</color>
+    <color name="layout_gray">#E1E3E7</color>
+    <color name="red">#FF1307</color>
+    <color name="orange">#FF7C07</color>
+    <color name="lightGrey">#E2E2E2</color>
+    <color name="yellow">#FFC30B</color>
+    <color name="errorRed">#ca0025</color>
+    <color name="warning_text_color">#C22F33</color>
+    <color name="cardViewDefaultColor">#fff</color>
+    <color name="dialog_negative_button">#97021D</color>
+    <color name="color_color_message">#80FFB1BE</color>
+    <color name="color_text">#004376</color>
+    <color name="color_red_text">#BD0000</color>
+    <color name="color_text_grey">#676767</color>
+    <color name="green_text">#269E34</color>
+    <color name="black_color">#000000</color>
+    <color name="black_to_red_color">#C22F33</color>
+    <color name="blue_color">#0CBCEC</color>
+    <color name="color_text_w">#2D86D9</color>
+    <color name="grey_color">#269E34</color>
+    <color name="yellow_color">#F8B300</color>
+    <color name="purple_color">#9B60A7</color>
+    <color name="color_text_light_blue">#0CBCEC</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#fff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color_blue" tools:override="true">@color/mtrl_outlined_stroccke_color</color>
+</resources>
