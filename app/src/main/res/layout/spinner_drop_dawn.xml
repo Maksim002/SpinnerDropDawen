@@ -7,7 +7,7 @@
     android:layout_height="wrap_content">
 
     <LinearLayout
-        android:id="@+id/layout"
+        android:id="@+id/layoutSpin"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:orientation="horizontal"
@@ -22,20 +22,25 @@
         tools:ignore="UselessLeaf">
 
         <ImageView
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginEnd="30dp"
             android:layout_gravity="center"
             android:src="@drawable/ic_star"
             tools:ignore="ContentDescription" />
 
         <TextView
+            android:id="@+id/testView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="@color/color_text"
             android:layout_weight="1"
-            android:text="Выберите причину невывоза"
-            android:layout_marginStart="16dp"
+            android:hint="Невывоз"
+            android:textColorHint="@color/color_text_w"
+            android:textColor="@color/color_text"
+            android:textSize="12sp"
             tools:ignore="HardcodedText" />
 
         <ImageView
@@ -46,26 +51,31 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textHide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Невывоз"
-        android:textSize="11sp"
+        android:textSize="10sp"
         android:paddingEnd="5dp"
         android:paddingStart="5dp"
+        android:visibility="gone"
         android:layout_marginStart="30dp"
         android:textColor="@color/color_text_w"
         android:background="@color/cardViewDefaultColor"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/layout"
-        app:layout_constraintBottom_toTopOf="@+id/layout"
+        app:layout_constraintTop_toTopOf="@+id/layoutSpin"
+        app:layout_constraintBottom_toTopOf="@+id/layoutSpin"
         tools:ignore="HardcodedText,SmallSp"/>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:background="@drawable/shadow_background_layout"
-        app:layout_constraintTop_toBottomOf="@+id/layout"
+        app:layout_constraintTop_toBottomOf="@+id/layoutSpin"
         app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
